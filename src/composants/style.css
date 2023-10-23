@@ -1,0 +1,139 @@
+ul {
+    list-style: none;
+}
+
+.liste-acteur {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 0px;
+    row-gap: 0px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 15px;
+    padding: 0;
+    
+}
+
+.difficulte {
+    display: inline;
+}
+
+.Vert {
+    color: green;
+}
+
+.Orange {
+    color: orange;
+}
+
+.Rouge {
+    color:#E50914
+}
+
+.Bleu {
+    color: rgb(84, 84, 224);
+    display: inline;
+}
+
+img {
+    width: 400px;
+}
+
+.bloc {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    text-align: justify;
+    gap: 50px;
+}
+
+.bloc p{
+    max-width: 70%;
+}
+
+.center {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.critique {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    margin-top: 10vh;
+    gap: 50px;
+    margin-bottom: 10vh;
+    
+}
+
+.critique li {
+    background : #3e3c3c;
+    box-shadow: 0 15px 30px rgba(17, 17, 17, 0.9);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 450px;
+    min-height: 250px;
+    gap: 20px;
+    text-align: justify; 
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.questions{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.questions button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 200px;
+    font-size: 1rem;
+}
+
+.questions input {
+    display: inline;
+    width: 300px;
+    height: 40px;
+}
+
+.rep {
+    display: inline;
+    padding: 10px;
+}
+
+.gallerie {
+    display: grid;
+    place-items: center;
+    grid-template-columns:repeat(2,1fr);
+}
+
+.gallerie img {
+    width: 330px;
+    height: 450px;
+    box-shadow: 0 15px 30px rgba(17, 17, 17, 0.9);
+    cursor: pointer;
+    
+}
+
+.gallerie img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1); /* Ajustez la valeur pour l'ombre souhaitée */
+    z-index: 1;
+}
+
